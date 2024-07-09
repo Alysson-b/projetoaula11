@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    min-height: 100vh;
+    background: url("https://neilpatel.com/wp-content/uploads/fly-images/31324/corporatepersonalblog-1200x675-c.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    backdrop-filter: blur(70%);
+
+}
+.header{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.buttons{
+    display: flex;
+    gap: 25px;
+    margin: 12px auto;
+}
+.header button{
+    padding: 5px 14px;
+    border-radius: 12px;
+    border: none;
+}
